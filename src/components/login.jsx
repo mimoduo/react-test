@@ -26,9 +26,9 @@ function Login() {
 			className={ "google_login " + visibility }
 			clientId="700739214835-5bkglg53lsc3bhmvu3tr5mod8mbjbsr5.apps.googleusercontent.com"
 			buttonText="Sign in With Google"
-			onSuccess={onSuccessResponseGoogle}
-			onFailure={onFailureResponseGoogle}
-			cookiePolicy={'single_host_origin'}
+			onSuccess={ onSuccessResponseGoogle }
+			onFailure={ onFailureResponseGoogle }
+			cookiePolicy={ 'single_host_origin' }
 		/>
 	);
 }
