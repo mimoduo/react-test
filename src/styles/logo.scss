@@ -1,0 +1,31 @@
+/* Logo */
+
+.logo {
+	max-width: 148px;
+
+	display: block;
+
+	@media screen and (min-width: 500px) {
+		max-width: 225px;
+	}
+}
+
+.logo_label {
+	height: auto;
+	width: 1px;
+
+	position: absolute;
+
+	border: 0;
+	clip: rect(0 0 0 0);
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.logo_icon {
+	width: 100%;
+
+	display: block;
+}

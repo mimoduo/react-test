@@ -1,0 +1,23 @@
+/* Login */
+
+.google_login {
+	position: absolute;
+	top: 100%;
+	right: 10px;
+
+	margin-top: 10px;
+	transition:
+		opacity .25s,
+		visibility .25s;
+
+	@media screen and (min-width: 500px) {
+		position: static;
+
+		margin-top: 0;
+	}
+
+	&.hidden {
+		opacity: 0;
+		visibility: hidden;
+	}
+}

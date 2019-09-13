@@ -1,0 +1,46 @@
+/* Page Header */
+
+.page_header {
+	width: 100%;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 200;
+	
+	background: #fff;
+	border-bottom: 1px solid #eee;
+	padding: 10px 0;
+
+	@media screen and (min-width: 500px) {
+		padding: 20px 0;
+	}
+}
+
+.page_header_inner {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* Page Main */
+
+.page_main {
+	padding-top: 60px;
+
+	@media screen and (min-width: 500px) {
+		padding-top: 100px;
+	}
+}
+
+
+/* Page Footer */
+
+.page_footer {
+	background: #929292;
+	color: #fff;
+	padding: 40px 0;
+}
+
+.page_footer_inner {}
